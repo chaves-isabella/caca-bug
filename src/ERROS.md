@@ -1,0 +1,3 @@
+| Erro encontrado                             | Causa                                                                             | Solução                                                                                        |
+| Construtor incompleto                       | faltava o this. para receber os dados                                             | adicionei o this. nos atibutos dentro do contrutor                                             |
+| Calculo incorreto no metodo aumentarSalario | o valor do percentual estava somando direto no salário sem calcular a porcentagem | calculei a porcentagem utilizando o valor do percetual dividido por cem e somando com o salário|
