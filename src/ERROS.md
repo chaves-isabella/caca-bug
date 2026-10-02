@@ -1,3 +1,3 @@
-| Erro encontrado                             | Causa                                                                             | Solução                                                                                        |
-| Construtor incompleto                       | faltava o this. para receber os dados                                             | adicionei o this. nos atibutos dentro do contrutor                                             |
-| Calculo incorreto no metodo aumentarSalario | o valor do percentual estava somando direto no salário sem calcular a porcentagem | calculei a porcentagem utilizando o valor do percetual dividido por cem e somando com o salário|
+Durante a análise do código, o primeiro erro identificado foi um construtor incompleto, provocado pela ausência do this. na atribuição dos dados. A solução aplicada foi adicionar o this. aos atributos dentro do próprio construtor.
+
+Outro problema encontrado foi um cálculo incorreto no método aumentarSalario, em que o valor do percentual estava sendo somado diretamente ao salário, sem o cálculo prévio da porcentagem. A correção foi feita dividindo o percentual por 100 e somando o valor resultante ao salário.
